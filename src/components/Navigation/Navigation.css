@@ -1,0 +1,22 @@
+.Logo {
+    display: inline;
+    margin-top: 0;
+    background: linear-gradient(89deg, #FF5EDF 10%, #04c8de 100%);
+    width: 80px;
+    height:80px;
+    margin-top: 20px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 3px;
+    
+}
+
+.register { 
+    margin-left: auto;
+}
+/* img {
+    width: 80px;
+    height: 80px;
+} */

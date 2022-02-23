@@ -1,0 +1,18 @@
+
+.Logo {
+    display: inline;
+    margin-top: 0;
+    background: linear-gradient(89deg, #FF5EDF 10%, #04c8de 100%);
+    width: 120px;
+    height:120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
