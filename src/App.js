@@ -1,5 +1,5 @@
 import React from 'react'
-// import Particles from "react-tsparticles"
+
 import SignIn from './components/SignIn/SignIn'
 import Register from './components/Register/Register'
 import Navigation from './components/Navigation/Navigation'
