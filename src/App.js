@@ -92,7 +92,7 @@ class App extends React.Component {
 
     onSubmit = () => {
     this.setState({imageUrl: this.state.input})
-    fetch('http://localhost:3000/imageurl', {
+    fetch('https://salty-scrubland-21115.herokuapp.com/imageurl', {
         method: 'POST',
         headers: {'Content-type': 'application/json'},
         body: JSON.stringify({
@@ -103,7 +103,7 @@ class App extends React.Component {
     .then(data => {
         this.displayFaceBox(this.calculateFaceLocation(data))
         if(data){
-            fetch('http://localhost:3000/image', {
+            fetch('https://salty-scrubland-21115.herokuapp.com/image', {
                 method: 'PUT',
                 headers: {'Content-Type': 'application/json'},
                 body: JSON.stringify({
